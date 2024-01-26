@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+
+    <!--  Favi Icon  -->
+    <link rel="icon" href="./assets/favicon.png" type="image/gif" sizes="32x32">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/home.css">
+
+</head>
+<style>
+    /*------------------Nav Bar Drop Down-------------*/
+    .nav-link .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .nav-link .dropdown .dropbtn {
+      font-size: 1.1rem;  
+      border: none;
+      outline: none;
+      color: #000;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .navbar a:hover, .nav-link .dropdown:hover .dropbtn {
+      background-color: var(--blue);
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black !important;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    </style>
+<body style="background-color: var(--blue)">
+<nav class="nav">
+            <div class="nav-menu flex-row">
+                <div class="nav-brand">
+                    <a href="index.html">  &nbsp; &nbsp; &nbsp; Todo &nbsp; &nbsp; &nbsp;  </a>
+                </div>
+                <div class="toggle-collapse">
+                    <div class="toggle-icons">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <div>
+                    <ul class="nav-items">
+                        <li class="nav-link">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="faq.html">FAQ's</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="Contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="team.html">Meet The Team</a>
+                        </li>
+                        <li class="nav-link ">
+                            <div class="dropdown" style="margin-top: -16.5px; margin-left: -15px;">
+                                <button class="dropbtn"><a href="#">See More</a> 
+                                      <i class="fa fa-angle-down" style="padding-left: 8px; padding-top: 5px;"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                      <a href="location.html">Location</a>
+                                      <a href="about.html">About Us</a>
+                                      <a href="char.html">Todo Smiles</a>
+                                </div>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social text-gray">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </nav>
+    
+        <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+
+    <div class="accordions">
+        <h1>FAQ's</h1>
+  <div class="accordion-item">
+    <div class="accordion-title" data-tab="item1">
+      <h2> Who is Team Todo? <i class="fas fa-chevron-down"></i></h2>
+    </div>
+    <div class="accordion-content" id="item1">
+      <p>
+        Head over to our 'Meet the Team' page to find out who we are and what we do.
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-title" data-tab="item2">
+      <h2>Where are you based? <i class="fas fa-chevron-down"></i></h2>
+    </div>
+    <div class="accordion-content" id="item2">
+      <p>
+        Todo HQ resides in bustling Karachi. It's said to be one of the happiest cities in  Pakistan and we couldn't agree more!
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-title" data-tab="item3">
+      <h2> How do you take your photos? <i class="fas fa-chevron-down"></i></h2>
+    </div>
+    <div class="accordion-content" id="item3">
+      <p>
+        Our Creative Producer uses a Canon 5D Mark III, with a mixture of lenses including the Canon 24-70mm. We also use a Manfrotto 3-section tripod for flatylays and stop-motions. We occasionally use the iPhone 8 Plus for other images!
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-title" data-tab="item4">
+      <h2>Do you collaborate with brands? <i class="fas fa-chevron-down"></i></h2>
+    </div>
+    <div class="accordion-content" id="item4">
+      <p>
+        We do! If you’re a brand interested in collaborating, please contact Rameen at tauseeframeen@gmail.com.
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-title" data-tab="item5">
+      <h2>How do I contribute to Todo? <i class="fas fa-chevron-down"></i></h2>
+    </div>
+    <div class="accordion-content" id="item5">
+      <p>
+        Although most of our content is born in-house, we’re always looking for contributors to write about what they're most passionate about. Email us at rameen@.co.pk for more information.
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-title" data-tab="item6">
+      <h2> Do you have a PO box?  <i class="fas fa-chevron-down"></i></h2>
+    </div>
+    <div class="accordion-content" id="item6">
+      <p>
+        We do! Email us at enquiries@rameen.co.pk for more information.
+
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-title" data-tab="item7">
+      <h2> Any advice on growing your blog? <i class="fas fa-chevron-down"></i></h2>
+    </div>
+    <div class="accordion-content" id="item7">
+      <p>
+        If you are starting out with a blog of your own and are eager to see growth, I would say engagement, content, and consistency are all key. Engage with readers on all social media platforms, stick to content you believe in, and try and stay as consistent as possible (that’s the hard part!)
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-title" data-tab="item8">
+      <h2>What motivates you to write your blog? <i class="fas fa-chevron-down"></i></h2>
+    </div>
+    <div class="accordion-content" id="item8">
+      <p>
+        I have an immense passion for writing,. (i also enjoy editing the words of my fellow writers.) styling outfits and taking photos are fun, but my favorite part of the blogging experience is creating written content for Todo. instagram and other social media platforms are great to peruse, but i most enjoy sitting at my computer (cup of coffee in hand) with a “new post” window open. while you may not have asked this, my least favorite part? putting away equiments post photo shoot.    </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-title" data-tab="item9">
+      <h2>How long does it take you to write a blog post? <i class="fas fa-chevron-down"></i></h2>
+    </div>
+    <div class="accordion-content" id="item9">
+      <p>
+        a blog post can take anywhere from an hour to several hours to write. however, that does not include the time spent styling the outfit(s), taking photos, editing photos, and cross-promoting the post on social media. all in all, blogging is a fun, yet time-consuming hobby!
+      </p>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <div class="accordion-title" data-tab="item10">
+      <h2> Are you hiring interns or assistants?<i class="fas fa-chevron-down"></i></h2>
+    </div>
+    <div class="accordion-content" id="item10">
+      <p>
+        Although we could definitely use one, unfortunately at this time we are not looking for an intern or an assistant.
+      </p>
+    </div>
+  </div>
+</div>
+
+     <!-- --------------------------- Footer ---------------------------------------- -->
+
+     <footer class="footer">
+        <div class="container1">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About us</h2>
+          <p><b><i>The word todo is actually a Spanish word that means ‘everything’ and this is what all our blog is about. ‘Everything you need in one spot’</i></b> </p>
+            
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card3.png" alt="insta1">
+                    <img src="./assets/instagram/thumb-card4.png" alt="insta2">
+                    <img src="./assets/instagram/thumb-card5.png" alt="insta3">
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card6.png" alt="insta4">
+                    <img src="./assets/instagram/thumb-card7.png" alt="insta5">
+                    <img src="./assets/instagram/thumb-card8.png" alt="insta6">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                Copyright ©2020 All rights reserved | made by
+                <a href=> Rameen, Sameer & Zobia </a>
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+            <p> Back To Top</p>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+    $(".accordion-title").click(function(e){
+        var accordionitem = $(this).attr("data-tab");
+        $("#"+accordionitem).slideToggle().parent().siblings().find(".accordion-content").slideUp();
+
+        $(this).toggleClass("active-title");
+        $("#"+accordionitem).parent().siblings().find(".accordion-title").removeClass("active-title");
+
+        $("i.fa-chevron-down",this).toggleClass("chevron-top");
+        $("#"+accordionitem).parent().siblings().find(".accordion-title i.fa-chevron-down").removeClass("chevron-top");
+    });
+    
+});
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+
+    <!--  Favi Icon  -->
+    <link rel="icon" href="./assets/logo.png" type="image/gif" sizes="32x32">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    
+    <link rel="stylesheet" href="./css/Style.css">
+
+</head>
+
+<style>
+    /*------------------Nav Bar Drop Down-------------*/
+    .nav-link .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .nav-link .dropdown .dropbtn {
+      font-size: 1.1rem;  
+      border: none;
+      outline: none;
+      color: #000;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .navbar a:hover, .nav-link .dropdown:hover .dropbtn {
+      background-color: var(--blue);
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black !important;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    </style>
+    
+    <body>
+    
+        <!-- ----------------------------  Navigation ---------------------------------------------- -->
+    
+        <nav class="nav">
+            <div class="nav-menu flex-row">
+                <div class="nav-brand">
+                    <a href="index.html">  &nbsp; &nbsp; &nbsp; Todo &nbsp; &nbsp; &nbsp;  </a>
+                </div>
+                <div class="toggle-collapse">
+                    <div class="toggle-icons">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <div>
+                    <ul class="nav-items">
+                        <li class="nav-link">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="faq.html">FAQ's</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="Contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="team.html">Meet The Team</a>
+                        </li>
+                        <li class="nav-link ">
+                            <div class="dropdown" style="margin-top: -16.5px; margin-left: -15px;">
+                                <button class="dropbtn"><a href="#">See More</a> 
+                                      <i class="fa fa-angle-down" style="padding-left: 8px; padding-top: 5px;"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                      <a href="location.html">Location</a>
+                                      <a href="about.html">About Us</a>
+                                      <a href="char.html">Todo Smiles</a>
+                                </div>
+                              </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social text-gray">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </nav>
+    
+        <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+
+
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/malai.jpeg"  width="750" height="400"   class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-th-list text-gray"></i></i>&nbsp;&nbsp;Recipes</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Feburary 15, 2020</span>
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Sameer</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#"> Chicken Malai Boti Recipe</a>
+                          <p>  Chicken Malai Boti is a very popular barbeque/grilled variety of chicken, eaten commonly among us Indian/Pakistani folks. ‘Boti’ meaning boneless chicken cubes. And ‘Malai’ is an Urdu term which is basically home-made fresh cream. I just make it with store brought fresh cream ( I mean, who has time to make Malai first! amirite?  Although click here if you want to know how to make fresh cream at home) 
+
+                                Even though the resulting chicken is almost white in color, this Chicken Malai Boti is packed with flavour and a melt-in-a-mouth kind of a texture. It is one of those standard crowd pleaser recipes! </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/juices.jpeg" width="750" height="400"  class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-th-list text-gray"></i></i>&nbsp;&nbsp;Recipes</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;March 2, 2020</span>
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Rameen</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Making Saudi Champagne - Non Alcoholic Drink </a>
+                            <p> Saudi Champagne is probably one of the most popular and trending drinks here in Saudi Arabia. Its one of the best non alcoholic beverages out there. Made with apple juice and soda, it has just the right amount of tang and sweetness in it. It is one of those refreshing drinks that makes your day.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/pancakes.jpeg"  width="750" height="400" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-th-list text-gray"></i></i>&nbsp;&nbsp;Recipes</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp; Feburary 25, 2020</span>
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Rameen</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#"> Four Fluffy Pancake Recipes For The Perfect Breakfast</a>
+                            <p><b><i>Who doesn't love Pancakes?</i> </b> <br> <br> I love, love, LOVE pancakes!! They are made for any meal of the day and are great as a sweet or savoury option. You can have them thin, thick, dripping in melted chocolate or my favourite filled with natural yoghurt and berries!  Pancakes are delicious and easy to make. The ingredients and the materials to make it are easily found in your kitchen.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/cake.jpeg"  width="750" height="400"   class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-th-list text-gray"></i></i>&nbsp;&nbsp;Recipes</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Feburary 15, 2020</span>
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Sameer</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">The Best Chocolate Recipe Ever</a>
+                            <p>The best chocolate cake recipe. Ever? There are plenty of claims for the best chocolate cake recipe. I get that. But with one bite of this decadent, moist chocolate cake with chocolate frosting, every single person around the table commented that this was the best chocolate cake they’d ever tasted.
+
+                                So as for my house, this chocolate cake recipe now holds that honor.
+                                
+                                As the compliments continued, I didn’t begin to tell them how easy it was to make.</p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="pagination flex-row">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="pages">1</a>
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2> Food Categories</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="recipes.html">Recipes</a>
+                                <span>(05)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="restuarant.html">Restaurant Reviews</a>
+                                <span>(12)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                <a href="food trends.html">Food Trends</a>
+                                <span>(03)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                                <a href="food facts.html">Food Facts</a>
+                                <span>(07)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-post">
+                        <h2>Popular Post</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/tea.jpeg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,2020</span>
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Zobia</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Stay Warm in Winter with These Cozy Blends by Sameer Teamaker</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/fancy.jpeg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Feburary 1,2020</span>
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Rameen</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Most Luxurious Restaurants in the World</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/tee.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Feburary 4,2020</span>
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Sameer</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">More goodness! Brewing kombucha from tea and botanicals with Goodmore Kombucha</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/coconutoil.jpeg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Feburary 14,2020</span>
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Zobia</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Coconut Oil reduces Belly Fat</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/tea.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Feburary 15,2020</span>
+                                    <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Rameen</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">A Visit to Samovar Tea Lounge in San Francisco</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>Newsletter</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Email">
+                            <button class="btn form-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags flex-row">
+                            <span class="tag" data-aos="flip-up" data-aos-delay="100">Software</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="200">technology</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="300">travel</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="400">illustration</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="500">design</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="600">lifestyle</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="700">love</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="800">project</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About us</h2>
+                <p class="text">
+            <b><i>The word todo is actually a Spanish word that means ‘everything’ and this is what all our blog is about. ‘Everything you need in one spot’</i></b> </p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card3.png" alt="insta1">
+                    <img src="./assets/instagram/thumb-card4.png" alt="insta2">
+                    <img src="./assets/instagram/thumb-card5.png" alt="insta3">
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card6.png" alt="insta4">
+                    <img src="./assets/instagram/thumb-card7.png" alt="insta5">
+                    <img src="./assets/instagram/thumb-card8.png" alt="insta6">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                Copyright ©2020 All rights reserved | made by
+                <a href=> Rameen, Sameer & Zobia </a>
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+            <p> Back To Top</p>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
